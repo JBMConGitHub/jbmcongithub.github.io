@@ -43,4 +43,8 @@ font-style: italic;
 opacity: 0.5;
 }
 
-#settings {filter: invert()}
+#settings {filter: invert(); margin: 2px}
+
+#settingsWindow {background-color: #3b3b3b;}
+
+#settingsWindow > iframe {backdrop-filter: none !important; filter: invert(1) !important}
