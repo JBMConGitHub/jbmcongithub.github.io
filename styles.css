@@ -1,0 +1,29 @@
+#top_banner {
+        display: none;
+      }
+      .senderInfo:has(> .badge) {color: #154cff; font-size: 20px; font-weight: normal}
+      .badge {display: none}
+      a[href*="red"] {color: red !important; text-decoration: none;}
+      a[href*="green"] {color: green !important; text-decoration: none;}
+      a[href*="blue"] {color: dodgerblue !important; text-decoration: none;}
+      a[href*="yellow"] {color: orange !important; text-decoration: none;}
+      
+      a[href*="delta"] {outline: 1px solid black;
+    border: 2px solid white;
+    padding: 5px;
+    background-color: black;
+    color: white !important;
+    text-decoration: none;
+    display: inline-block;
+    font-family: delta;
+    }
+    a[href*="delta"]::before {
+  content: "* ";
+  }
+  @font-face {
+  font-family: delta;
+  src: url(https://file.garden/Zkj4Ekt8VXqarrbc/dark.ttf);
+}
+
+a[href*="title"] {font-size: 20px; text-decoration: none;}
+      a[href*="subtitle"] {font-size: 11px; opacity: 0.5; text-decoration: none;}
