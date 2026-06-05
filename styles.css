@@ -1,6 +1,11 @@
 #top_banner {
-        display: none;
+        height: 30px !important;
+    background-image: url(https://file.garden/Zkj4Ekt8VXqarrbc/jtalklogobar.png) !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-color: #3b3b3b !important;
       }
+#top_banner > a {display: none}
       .senderInfo:has(> .badge) {color: #154cff; font-size: 20px; font-weight: normal}
       .badge {display: none}
       a[href*="red"] {color: red !important; text-decoration: none;}
