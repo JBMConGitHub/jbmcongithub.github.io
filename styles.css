@@ -59,4 +59,4 @@ color: black; background-color: rgba(255, 255, 255, 0.5); position: absolute; bo
     padding: 7px;
     border-radius: 4px 4px 0 0;}
 
-#scrollToBottom {background-color: #cccccc; color: black}
+#scrollToBottom {background-color: #cccccc !important; color: black !important}
