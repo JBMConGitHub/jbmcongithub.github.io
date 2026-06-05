@@ -49,3 +49,8 @@ margin-left: 0.3em;
 #settingsWindow {background-color: #3b3b3b;}
 
 #settingsWindow > iframe {backdrop-filter: none !important; filter: invert(1) !important}
+
+#settingsWindow::after{
+content: 'To log into an existing account, click the top button, click "Sign up", and then "Log in". Then, enter your username and password. When you’re done, press Close.';
+color: black; background-color: white; position: absolute; bottom: 0; left: 0; display: block; width: 100%; padding: 20px; text-align: center;
+}
