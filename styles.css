@@ -34,3 +34,5 @@ a[href*="title"] {font-size: 20px; text-decoration: none;}
       a[href*="subtitle"] {font-size: 11px; opacity: 0.5; text-decoration: none;}
 
 #is_typing {left: calc(100% - 50px) !important}
+
+div.pinned {border-radius: 4px; border: 1px solid #E42B65;}
