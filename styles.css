@@ -38,9 +38,10 @@ a[href*="title"] {font-size: 20px; text-decoration: none;}
 div.pinned {border-radius: 4px; border: 1px solid #E42B65;}
 
 div.edited > p > p.senderInfo::after {
-content: "&nbsp;(edited)";
+content: "(edited)";
 font-style: italic;
 opacity: 0.5;
+margin-left: 0.3em;
 }
 
 #settings {filter: invert(); margin: 2px}
