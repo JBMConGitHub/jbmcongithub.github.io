@@ -30,7 +30,7 @@
   src: url(https://file.garden/Zkj4Ekt8VXqarrbc/dark.ttf);
 }
 
-a[href*="title"] {font-size: 20px; text-decoration: none;}
+h1 {line-height: 30px;}
       a[href*="subtitle"] {font-size: 11px; opacity: 0.5; text-decoration: none;}
 
 #is_typing {left: calc(100% - 50px) !important}
