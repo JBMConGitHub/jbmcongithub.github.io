@@ -78,8 +78,4 @@ position: relative;
 bottom: 1px; left: 4px
 }
 
-.msgBody {line-height: 8px;}
-
-.senderInfo {margin-bottom: 4px !important}
-
-.replyLink {margin-bottom: 4px !important}
+br {display: none}
