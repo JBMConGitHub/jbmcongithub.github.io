@@ -64,8 +64,6 @@ color: black; background-color: rgba(255, 255, 255, 0.5); position: absolute; bo
 
 p.allMessages:has(> pre.msgBody > p > a[href*="name"]) > p.senderInfo {display: none}
 
-p.allMessages:has(> pre.msgBody > p > a[href*="name"]) {margin-top: 5px !important}
-
 a[href*="name"] {font-weight: bold; text-decoration: none;}
 
 a[href*="name"]::after {
