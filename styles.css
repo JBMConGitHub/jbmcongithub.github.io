@@ -32,7 +32,9 @@
 
 h1, h2, h3, h4, h5 {position: relative; top: 8px;}
 
-      a[href*="subtitle"] {font-size: 11px; opacity: 0.5; text-decoration: none;}
+#emojiTray > h3 {top: 0 !important}
+
+a[href*="subtitle"] {font-size: 11px; opacity: 0.5; text-decoration: none;}
 
 #is_typing {left: calc(100% - 50px) !important}
 
@@ -82,3 +84,7 @@ br {display: none}
 #input > br {display: inline !important}
 
 .pinned {position: sticky; top: 0; z-index: 2; border-radius: 5px; background-color: white}
+
+.emojiInGrid {height: 30px !important}
+
+.emoji {height: 25px !important}
