@@ -6,7 +6,19 @@
     background-color: #3b3b3b !important;
       }
 #top_banner > a {display: none}
-      .senderInfo:has(> .badge) {color: #154cff; font-size: 20px; font-weight: normal}
+
+
+      .senderInfo:has(> .badge) {
+
+              background-image: url(https://jeib.neocities.org/jeib_logo.png);
+    background-size: auto 75% !important;
+    background-repeat: no-repeat !important;
+    background-position: center left;
+    color: transparent;
+              
+      }
+
+
       .badge {display: none}
       a[href*="red"] {color: red !important; text-decoration: none;}
       a[href*="green"] {color: green !important; text-decoration: none;}
@@ -45,6 +57,7 @@ content: "(edited)";
 font-style: italic;
 opacity: 0.5;
 margin-left: 0.3em;
+        color: black !important;
 }
 
 #settings {filter: invert(); margin: 2px}
