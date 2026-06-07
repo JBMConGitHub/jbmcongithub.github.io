@@ -88,3 +88,16 @@ br {display: none}
 .emojiInGrid {height: 30px !important}
 
 .emoji {height: 25px !important}
+
+#timestamp {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    right: 0;
+    opacity: 0.5;
+    font-style: italic;
+    border-bottom: 1px solid black;
+    width: 100%;
+    text-align: right;
+    padding-bottom: 4px;     
+}
