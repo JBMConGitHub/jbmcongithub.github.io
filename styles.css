@@ -11,7 +11,7 @@
       .senderInfo:has(> .badge) {
 
               background-image: url(https://jeib.neocities.org/jeib_logo.png);
-    background-size: auto 75% !important;
+    background-size: auto 80% !important;
     background-repeat: no-repeat !important;
     background-position: center left;
     color: transparent;
