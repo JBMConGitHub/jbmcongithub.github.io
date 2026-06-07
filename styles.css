@@ -101,3 +101,9 @@ br {display: none}
     text-align: right;
     padding-top: 4px;     
 }
+
+#nameEntry {
+outline: none !important;
+background-color: white;
+border-top: solid rgb(153, 153, 153) 1px;
+}
